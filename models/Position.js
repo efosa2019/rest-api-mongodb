@@ -39,9 +39,7 @@ const PositionSchema = mongoose.Schema({
     gsm_signal_strength: {
         type:  Number
     },
-    terminal_status: {
-        type:  String
-    },
+    
     base_station_number: {
         type:  Number
     },
